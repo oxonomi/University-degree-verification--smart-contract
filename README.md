@@ -1,1 +1,7 @@
 # University-degree-verification--smart-contract
+
+This is proof-of-concept implementation aimed at combating academic fraud by leveraging the immutability of blockchain technology. It allows authorized universities within the UK to store and manage hashes of their awarded degrees on the Ethereum blockchain. With the intent of serving as a reliable system that employers and recruiters can utilize to verify the authenticity of potential employees' degrees.
+
+The contract allows a central UK authority, possibly a representative body for UK universities, to manage the list of authorized universities. These authorized universities can then add degree hashes to the blockchain or change the status of existing degrees to either 'Revoked' or 'Modified'. Each degree entry or modification includes a timestamp, giving greater transparency about the degree's history. Moreover, to ensure the sustainable operation of the system, the contract includes a function that allows the UK authority to withdraw excess ether accumulated through transaction costs.
+
+It's important to note that this contract is in the early stages of development and testing. While it provides a simplified model of a complex real-world problem, it's not yet production-ready. Future enhancements will likely include advanced features like tracking history of degree status changes, enhanced privacy measures, and possibly more intricate interaction with university systems.
